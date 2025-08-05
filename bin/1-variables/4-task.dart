@@ -3,7 +3,7 @@ void main () {
   nickname = null;
   nickname = "Lex";
   //nickname ?? 'no nickname';
-  if (nickname != null){
+  if (nickname.isNotEmpty){
     print("Nickname is: $nickname");
   }  
 }
